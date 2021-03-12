@@ -1,7 +1,11 @@
 import React from 'react';
 
-import ContactList from './components/ContactList';
+import Header from './components/Header';
+import Register from './components/Register';
+import Login from './components/Login';
+import UserList from './components/UserList';
 import SendEmail from './components/SendEmail';
+import CreateProject from './components/CreateProject';
 
 const App = () => {
 
@@ -9,8 +13,12 @@ const App = () => {
     return(
         <div>
             <div>
-                <ContactList />
+                <Header />
+                <Register />
+                <Login />
+                <UserList />
                 <SendEmail />
+                <CreateProject />
             </div>
         </div>
     );
